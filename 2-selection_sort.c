@@ -4,7 +4,7 @@
  * selection_sort - sorts an array of integers in ascending order
  *                  using selection sort algorithm
  * @array: the array to be sorted
- * @size: size of the array to be sorted
+ * @size: size of the array
  *
  * Return: Nothing
  */
