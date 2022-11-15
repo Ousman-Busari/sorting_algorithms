@@ -44,7 +44,7 @@ void lomuto_sort(int *array, size_t size, int start, int end)
 
 /**
  * lomuto_partition - uses the last element of an array as the pivot for
- *             partitioning an array withi a range of index
+ *                    partitioning an array withi a range of index
  * @array: array of integers to be partitioned
  * @size: size of the array
  * @start: index where to start the partitioning
