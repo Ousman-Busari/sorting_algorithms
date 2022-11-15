@@ -18,9 +18,10 @@ void heap_sort(int *array, size_t size)
 	if (!array || size < 2)
 		return;
 
-	for (i = size / 2 - 1; i >= 0; i--)
+	for (i = (size / 2) - 1; i >= 0; i--)
 		heapify_max(array, size, size, i);
-	for (i = size - 1; i >= 0; i--)
+
+	for (i = size - 1; i > 0; i--)
 	{
 		swap(array, array + i);
 		print_array(array, size);
